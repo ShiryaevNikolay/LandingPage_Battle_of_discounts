@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   outline: none;
@@ -28,7 +29,7 @@ li {
   width: 100vw;
   padding: 10px 0;
   position: absolute;
-  z-index: 1;
+  z-index: 999;
 }
 
 .header ul {
@@ -159,5 +160,134 @@ li {
   border-radius: 10px;
   padding: 15px 40px;
   letter-spacing: 2px;
+}
+
+.section2 {
+  padding: 120px 0 90px 0;
+}
+
+.section2 .div-h1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.section2 h1 {
+  display: inline;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 900;
+  position: relative;
+}
+
+.section2 h1:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: calc(100% + 10px);
+  height: 18px;
+  background-color: #ffd52b;
+  bottom: 0;
+  right: -5px;
+  z-index: -1;
+}
+
+.section2 .step {
+  text-align: center;
+}
+
+.section2 .step-circle {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 6px #e8e8e8 inset;
+          box-shadow: 0 0 0 6px #e8e8e8 inset;
+  margin-bottom: 40px;
+}
+
+.section2 .step-circle-number {
+  position: absolute;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.section2 .step-circle-progress {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.section2 .step-circle-progress-fix {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 6px solid #e8e8e8;
+  border-radius: 50%;
+}
+
+.section2 .step-circle-progress1 {
+  border: 6px solid #43a8f6;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.section2 .step-circle-progress1-fix {
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+
+.section2 .step-circle-progress2 {
+  border: 6px solid #32b228;
+  border-left-color: transparent;
+}
+
+.section2 .step-circle-progress2-fix {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.section2 .step-circle-progress3 {
+  border: 6px solid #d60505;
+}
+
+.section2 .step-title {
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.section2 .step-div-text {
+  padding: 0 25px;
+}
+
+.section2 .step-text1 {
+  margin-bottom: 25px;
+}
+
+.section2 .step-text2 {
+  margin-bottom: 20px;
+}
+
+.section2 .step-link {
+  font-weight: 700;
+  text-decoration: underline;
+  letter-spacing: 1px;
 }
 /*# sourceMappingURL=main.css.map */
