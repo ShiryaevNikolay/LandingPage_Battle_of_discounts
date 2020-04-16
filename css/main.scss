@@ -129,8 +129,8 @@ li {
         }
     }
 }
-.section2 {
-    padding: 120px 0 90px 0;
+.section {
+    padding: 120px 0 95px 0;
     .div-h1 {
         text-align: center;
         margin-bottom: 100px;
@@ -147,10 +147,16 @@ li {
             display: block;
             width: calc(100% + 10px);
             height: 18px;
-            background-color: #ffd52b;
             bottom: 0;
             right: -5px;
             z-index: -1;
+        }
+    }
+}
+.section2 {
+    h1 {
+        &:before {
+            background-color: #ffd52b;
         }
     }
     .step {
@@ -233,5 +239,65 @@ li {
             text-decoration: underline;
             letter-spacing: 1px;
         }
+    }
+}
+.section3 {
+    background: url("/img/bg-img-section3.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+    h1 {
+        z-index: 1;
+        color: white;
+        &:before {
+            background-color: #32b228;
+        }
+    }
+    .div-grid {
+        text-align: center;
+        margin: 0 auto;
+        &__img {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        &__text {
+            margin-bottom: 75px;
+        }
+        &__last {
+            margin-bottom: 90px;
+        }
+        img {
+            box-sizing: border-box;
+            display: block;
+            width: 100%;
+            padding: 0 50px;
+        }
+        span {
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    .span-title {
+        display: block;
+        color: white;
+        font-size: 31px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 55px;
+    }
+    .div-main-btn{
+        outline: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        background-color: #d60505;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 40px;
+        letter-spacing: 2px;
     }
 }

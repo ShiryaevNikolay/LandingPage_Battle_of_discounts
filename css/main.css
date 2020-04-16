@@ -162,16 +162,16 @@ li {
   letter-spacing: 2px;
 }
 
-.section2 {
-  padding: 120px 0 90px 0;
+.section {
+  padding: 120px 0 95px 0;
 }
 
-.section2 .div-h1 {
+.section .div-h1 {
   text-align: center;
   margin-bottom: 100px;
 }
 
-.section2 h1 {
+.section h1 {
   display: inline;
   font-size: 36px;
   text-transform: uppercase;
@@ -179,16 +179,19 @@ li {
   position: relative;
 }
 
-.section2 h1:before {
+.section h1:before {
   content: "";
   position: absolute;
   display: block;
   width: calc(100% + 10px);
   height: 18px;
-  background-color: #ffd52b;
   bottom: 0;
   right: -5px;
   z-index: -1;
+}
+
+.section2 h1:before {
+  background-color: #ffd52b;
 }
 
 .section2 .step {
@@ -289,5 +292,83 @@ li {
   font-weight: 700;
   text-decoration: underline;
   letter-spacing: 1px;
+}
+
+.section3 {
+  background: url("/img/bg-img-section3.png") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.section3 h1 {
+  z-index: 1;
+  color: white;
+}
+
+.section3 h1:before {
+  background-color: #32b228;
+}
+
+.section3 .div-grid {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section3 .div-grid__img {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.section3 .div-grid__text {
+  margin-bottom: 75px;
+}
+
+.section3 .div-grid__last {
+  margin-bottom: 90px;
+}
+
+.section3 .div-grid img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.section3 .div-grid span {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section3 .span-title {
+  display: block;
+  color: white;
+  font-size: 31px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.section3 .div-main-btn {
+  outline: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #d60505;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 40px;
+  letter-spacing: 2px;
 }
 /*# sourceMappingURL=main.css.map */
