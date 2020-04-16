@@ -301,3 +301,33 @@ li {
         letter-spacing: 2px;
     }
 }
+.section4 {
+    text-align: center;
+    .step {
+        &-circle {
+            img {
+                width: 50px;
+            }
+        }
+    }
+    .span-title {
+        display: block;
+        font-size: 31px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 55px;
+        margin-top: 80px;
+    }
+    &-btn{
+        outline: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        background-color: #d60505;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 40px;
+        letter-spacing: 2px;
+    }
+}
