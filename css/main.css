@@ -718,4 +718,117 @@ li {
   font-size: 24px;
   font-weight: 700;
 }
+
+.section7 {
+  text-align: center;
+}
+
+.section7 .div-h1 {
+  margin-bottom: 60px;
+}
+
+.section7 .div-h1 h1 {
+  z-index: 1;
+  color: black;
+}
+
+.section7 .div-h1 h1:before {
+  background-color: #ffd52a;
+}
+
+.section7-snap1 {
+  font-size: 17px;
+  margin-bottom: 90px;
+  display: inline-block;
+}
+
+.section7 table tr .title {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.section7 table tr .col1 {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: start;
+}
+
+.section7 table tr th:last-child {
+  border-left: 5px solid #e8e8e8;
+  border-right: 5px solid #e8e8e8;
+}
+
+.section7 table tr:first-child th {
+  padding-top: 28px;
+}
+
+.section7 table tr:first-child th:last-child {
+  border-top: 5px solid #e8e8e8;
+}
+
+.section7 table tr:last-child th {
+  padding-bottom: 28px;
+}
+
+.section7 table tr:last-child th:last-child {
+  border-bottom: 5px solid #e8e8e8;
+}
+
+.section7 table tr:not(:last-child) th {
+  padding-bottom: 10px;
+}
+
+.section7 table tr:not(:first-child) th {
+  padding-top: 10px;
+}
+
+.section7 table th:not(:first-child) {
+  padding: 0 30px;
+  min-width: 190px;
+}
+
+.section7 table th:first-child {
+  padding-right: 20px;
+}
+
+.section7 table .img-ok {
+  height: 25px;
+}
+
+.section7 table .img-not {
+  height: 7px;
+}
+
+.section7 table .link {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.section7 table .link:after {
+  content: "";
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
+  position: absolute;
+  height: 2px;
+  background-color: #e95252;
+  width: 100%;
+  bottom: -5px;
+  right: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+
+.section7 table .link:hover {
+  color: #e95252;
+}
+
+.section7 table .link:hover:after {
+  content: "";
+  left: 0;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
 /*# sourceMappingURL=main.css.map */
