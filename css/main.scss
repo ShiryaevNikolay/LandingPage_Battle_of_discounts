@@ -351,7 +351,7 @@ li {
     background-image: url("/img/section5/bg.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 80px 0;
+    padding: 80px 0 120px;
     position: relative;
     text-align: center;
     .row-point1 {
@@ -527,5 +527,52 @@ li {
                 transform: translate(22%);
             }
         }
+    }
+}
+.section6 {
+    background: url("/img/bg-img-section6.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+    .div-h1 {
+        margin-bottom: 60px;
+        h1 {
+            z-index: 1;
+            color: black;
+            &:before {
+                background-color: #fff;
+            }
+        }
+    }
+    &-snap1 {
+        font-size: 17px;
+        margin-bottom: 90px;
+        display: inline-block;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 50px;
+        li {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0;
+            padding: 0;
+            margin: 0 10px;
+            img {
+                height: 70px;
+                display: block;
+                margin-bottom: 28px;
+            }
+            .name {
+                font-weight: 700;
+                font-size: 17px;
+            }
+        }
+    }
+    &-span2 {
+        font-size: 24px;
+        font-weight: 700;
     }
 }
