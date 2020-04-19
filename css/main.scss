@@ -676,3 +676,59 @@ li {
         }
     }
 }
+.section8 {
+    background: url("/img/bg-img-section8.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    .div-h1 {
+        margin-bottom: 110px;
+        h1 {
+            z-index: 1;
+            color: white;
+            &:before {
+                background-color: #ffd52a;
+            }
+        }
+    }
+    .container {
+        padding: 0 70px;
+        &-main {
+            width: 100%;
+            background-color: #f6f8fa;
+            box-shadow: 0 5px 20px rgba($color: #000000, $alpha: .3);
+            &-list {
+                &-item {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 30px;
+                    &-text {
+                        font-size: 20px;
+                        font-weight: 700;
+                        &__answer {
+                            font-weight: 18px;
+                            font-weight: 400;
+                        }
+                    }
+                    &-btn {
+                        border: none;
+                        background: none;
+                        outline: none;
+                        img {
+                            width: 24px;
+                        }
+                    }
+                    &__answer {
+                        text-align: start;
+                        background-color: #e2ecf5;
+                    }
+                }
+                li:nth-child(3) {
+                    border-top: 2px solid #e2ecf5;
+                    border-bottom: 2px solid #e2ecf5;
+                }
+            }
+        }
+    }
+}

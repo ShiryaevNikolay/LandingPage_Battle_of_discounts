@@ -831,4 +831,78 @@ li {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
+
+.section8 {
+  background: url("/img/bg-img-section8.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.section8 .div-h1 {
+  margin-bottom: 110px;
+}
+
+.section8 .div-h1 h1 {
+  z-index: 1;
+  color: white;
+}
+
+.section8 .div-h1 h1:before {
+  background-color: #ffd52a;
+}
+
+.section8 .container {
+  padding: 0 70px;
+}
+
+.section8 .container-main {
+  width: 100%;
+  background-color: #f6f8fa;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.section8 .container-main-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.section8 .container-main-list-item-text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.section8 .container-main-list-item-text__answer {
+  font-weight: 18px;
+  font-weight: 400;
+}
+
+.section8 .container-main-list-item-btn {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.section8 .container-main-list-item-btn img {
+  width: 24px;
+}
+
+.section8 .container-main-list-item__answer {
+  text-align: start;
+  background-color: #e2ecf5;
+}
+
+.section8 .container-main-list li:nth-child(3) {
+  border-top: 2px solid #e2ecf5;
+  border-bottom: 2px solid #e2ecf5;
+}
 /*# sourceMappingURL=main.css.map */
