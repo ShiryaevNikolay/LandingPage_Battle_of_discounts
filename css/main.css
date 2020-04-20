@@ -905,4 +905,213 @@ li {
   border-top: 2px solid #e2ecf5;
   border-bottom: 2px solid #e2ecf5;
 }
+
+.section9 {
+  text-align: center;
+}
+
+.section9 .div-h1 {
+  margin-bottom: 100px;
+}
+
+.section9 .div-h1 h1 {
+  z-index: 1;
+  color: black;
+}
+
+.section9 .div-h1 h1:before {
+  background-color: #ffcc0a;
+}
+
+.section9-logo {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section9-logo-img {
+  height: 80px;
+}
+
+.section9-span {
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: block;
+}
+
+.section9-span__1, .section9-span__2 {
+  margin-bottom: 35px;
+}
+
+.section9-span__3 {
+  margin-bottom: 115px;
+}
+
+.section9-div-main-for-form {
+  width: 100%;
+  position: relative;
+}
+
+.section9-div-main-for-form__bg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -725px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section9-div-main-for-form__bg img {
+  height: 1400px;
+  -webkit-transform: translate(3%);
+          transform: translate(3%);
+}
+
+.section9-div-main-for-form__main {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.section9-div-main-for-form__main h2 {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.section9-div-main-for-form__main span {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.section9-div-main-for-form__main-form {
+  text-align: center;
+  margin: 0 50px;
+}
+
+.section9-div-main-for-form__main-form input {
+  padding: 10px 15px;
+  outline: none;
+  border: 2px solid #dddddd;
+  width: 100%;
+}
+
+.section9-div-main-for-form__main-form__1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section9-div-main-for-form__main-form__1 input {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.section9-div-main-for-form__main-form__1 input:nth-child(2) {
+  margin: 0 50px;
+  margin-bottom: 30px;
+}
+
+.section9-div-main-for-form__main-form__2 {
+  width: 100%;
+  text-align: center;
+}
+
+.section9-div-main-for-form__main-form__2 input {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.section9-div-main-for-form__main-form__3 textarea {
+  width: 100%;
+  resize: none;
+  margin-bottom: 45px;
+  padding: 10px 15px;
+  outline: none;
+  border: 2px solid #dddddd;
+}
+
+.section9-div-main-for-form-btn {
+  outline: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #d60505;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 40px;
+  letter-spacing: 2px;
+  outline: hidden;
+  margin-bottom: 100px;
+}
+
+.section9-div-main-for-form-btn:hover {
+  -webkit-box-shadow: 0 5px 10px rgba(196, 40, 40, 0.5);
+          box-shadow: 0 5px 10px rgba(196, 40, 40, 0.5);
+  background: linear-gradient(45deg, #d60505, 70%, #b10505);
+}
+
+.section9 .step-circle {
+  width: 80px;
+  height: 80px;
+  -webkit-box-shadow: 0 0 0 4px #e8e8e8 inset;
+          box-shadow: 0 0 0 4px #e8e8e8 inset;
+  margin-bottom: 30px;
+}
+
+.section9 .step-circle img {
+  width: 27px;
+}
+
+.section9 .step-title {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.section9 .step-title__phone {
+  font-weight: 700;
+}
+
+.section9 .step-title__point, .section9 .step-title__email {
+  font-weight: 400;
+}
+
+.section9 .step-title__email {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #ffd52a;
+  padding: 35px 0 15px;
+  text-align: center;
+}
+
+.footer span {
+  display: block;
+  margin: 0;
+}
+
+.footer span.footer-phone {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer span.footer-info {
+  font-size: 14px;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=main.css.map */
