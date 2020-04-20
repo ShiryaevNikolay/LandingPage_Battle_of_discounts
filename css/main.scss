@@ -22,7 +22,7 @@ li {
 .header {
     width: 100%;
     padding: 10px 0;
-    position: absolute;
+    position: fixed;
     z-index: 999;
     ul {
         display: flex;
@@ -40,10 +40,28 @@ li {
             margin: 0 17px;
         }
         li:first-child {
-            margin-right: 17px;
+            margin-right: 10px;
         }
         li:last-child {
-            margin-left: 17px;
+            margin-left: 10px;
+        }
+    }
+    &-link__style {
+        outline: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #d60505;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 15px;
+        letter-spacing: 1px;
+        outline: hidden;
+        margin-left: 0;
+        &:hover {
+            box-shadow: 0 5px 10px rgba($color: #c42828, $alpha: .5);
+            background: linear-gradient(45deg, #d60505, 70%, #b10505);
+            color: white;
         }
     }
 }
@@ -257,32 +275,6 @@ li {
             background-color: #32b228;
         }
     }
-    // ul {
-    //     list-style: none;
-    //     margin: 0;
-    //     padding: 0;
-    //     display: block;
-    //     li {
-    //         margin: 0;
-    //         padding: 0;
-    //         display: inline-block;
-    //         height: 100%;
-    //         .div-grid {
-    //             &__img {
-    //                 height: 60px;
-    //                 margin-bottom: 30px;
-    //                 img {
-    //                     height: 100%;
-    //                 }
-    //             }
-    //             &__text {
-    //                 color: white;
-    //                 font-size: 18px;
-    //                 font-weight: 500;
-    //             }
-    //         }
-    //     }
-    // }
     .div-grid {
         text-align: center;
         margin: 0 auto;
@@ -404,6 +396,8 @@ li {
         overflow: hidden;
         display: flex;
         justify-content: center;
+        align-items: 40px;
+        padding-top: 10px;
         .img2 {
             height: 100%;
             transform: translate(-9%);
@@ -417,6 +411,7 @@ li {
         display: flex;
         justify-content: center;
         top: 13px;
+        padding-top: 20px;
         .img3 {
             height: 100%;
         }   
@@ -748,6 +743,7 @@ li {
                     &__answer {
                         text-align: start;
                         background-color: #e2ecf5;
+                        display: none;
                     }
                 }
                 li:nth-child(3) {
