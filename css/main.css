@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -771,6 +772,27 @@ li {
 .section7 table tr .title {
   font-size: 18px;
   font-weight: 800;
+}
+
+.section7 table tr .title__limit {
+  position: relative;
+}
+
+.section7 table tr .title__limit:before {
+  content: "Доступно только 4 места!";
+  position: absolute;
+  background-color: #008aff;
+  font-size: 13px;
+  color: white;
+  font-weight: 700;
+  padding: 7px 10px;
+  width: 100%;
+  -webkit-box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  top: -25px;
+  left: -20px;
+  -webkit-transform: rotate(-7deg);
+          transform: rotate(-7deg);
 }
 
 .section7 table tr .col1 {

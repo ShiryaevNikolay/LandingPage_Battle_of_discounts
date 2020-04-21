@@ -619,6 +619,23 @@ li {
             .title {
                 font-size: 18px;
                 font-weight: 800;
+                &__limit {
+                    position: relative;
+                    &:before {
+                        content: "Доступно только 4 места!";
+                        position: absolute;
+                        background-color: #008aff;
+                        font-size: 13px;
+                        color: white;
+                        font-weight: 700;
+                        padding: 7px 10px;
+                        width: 100%;
+                        box-shadow: 2px 2px rgba(0, 0, 0, 0.3);;
+                        top: -25px;
+                        left: -20px;
+                        transform: rotate(-7deg);
+                    }
+                }
             }
             .col1 {
                 font-size: 14px;
