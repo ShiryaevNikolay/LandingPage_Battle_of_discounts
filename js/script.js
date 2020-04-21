@@ -40,33 +40,33 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     document.getElementById("container-main-list-item-btn__1").onclick = function(e) {
         if (checkBtn1) {
-            document.getElementById("container-main-list-item-btn__1__img").src = "/img/btn1.png";
+            document.getElementById("container-main-list-item-btn__1__img").src = "img/btn1.png";
             document.getElementById("container-main-list-item container-main-list-item__answer__1").style.display = "none";
             checkBtn1 = false;
         } else {
-            document.getElementById("container-main-list-item-btn__1__img").src = "/img/btn2.png";
+            document.getElementById("container-main-list-item-btn__1__img").src = "img/btn2.png";
             document.getElementById("container-main-list-item container-main-list-item__answer__1").style.display = "flex";
             checkBtn1 = true;
         }
     };
     document.getElementById("container-main-list-item-btn__2").onclick = function(e) {
         if (checkBtn2) {
-            document.getElementById("container-main-list-item-btn__2__img").src = "/img/btn1.png";
+            document.getElementById("container-main-list-item-btn__2__img").src = "img/btn1.png";
             document.getElementById("container-main-list-item container-main-list-item__answer__2").style.display = "none";
             checkBtn2 = false;
         } else {
-            document.getElementById("container-main-list-item-btn__2__img").src = "/img/btn2.png";
+            document.getElementById("container-main-list-item-btn__2__img").src = "img/btn2.png";
             document.getElementById("container-main-list-item container-main-list-item__answer__2").style.display = "flex";
             checkBtn2 = true;
         }
     };
     document.getElementById("container-main-list-item-btn__3").onclick = function(e) {
         if (checkBtn3) {
-            document.getElementById("container-main-list-item-btn__3__img").src = "/img/btn1.png";
+            document.getElementById("container-main-list-item-btn__3__img").src = "img/btn1.png";
             document.getElementById("container-main-list-item container-main-list-item__answer__3").style.display = "none";
             checkBtn3 = false;
         } else {
-            document.getElementById("container-main-list-item-btn__3__img").src = "/img/btn2.png";
+            document.getElementById("container-main-list-item-btn__3__img").src = "img/btn2.png";
             document.getElementById("container-main-list-item container-main-list-item__answer__3").style.display = "flex";
             checkBtn3 = true;
         }
